@@ -22,6 +22,7 @@ namespace HDWallet.Core
         Blockstack = 5757,
         Neo = 888,
         Terra = 330,
-        Algorand = 283
+        Algorand = 283,
+        Flow = 539
     }
 }
