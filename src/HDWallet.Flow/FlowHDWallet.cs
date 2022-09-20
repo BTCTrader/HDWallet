@@ -5,8 +5,9 @@ namespace HDWallet.Flow
 {
     public class FlowHDWallet : HDWallet<FlowWallet>
     {
-        private static readonly HDWallet.Core.CoinPath _path = M.BIP44.CreateCoinPath(CoinType.Flow);
+        private static readonly CoinPath _path = M.BIP44.CreateCoinPath(CoinType.Flow);
 
         public FlowHDWallet(string mnemonic, string passphrase = "") : base(mnemonic, passphrase, _path) {}
+        public FlowHDWallet(string seed) : base(seed, _path) {}
     }
 }
