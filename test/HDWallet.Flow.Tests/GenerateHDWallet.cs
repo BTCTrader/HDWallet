@@ -9,7 +9,7 @@ namespace HDWallet.Flow.Tests
         public void ShouldCreateAccount()
         {
             string words = "original kid caught kiss effort apple echo else quantum blanket agree review";
-            IHDWallet<FlowWallet> wallet = new FlowHDWallet(words);
+            IHDWallet<FlowWallet> wallet = new FlowHDWallet(words, "");
             var account0wallet0 = wallet.GetAccount(0).GetExternalWallet(0);
 
             // m/44'/569'/0'/0/0
@@ -20,8 +20,8 @@ namespace HDWallet.Flow.Tests
         public void ShouldCreateAccount2()
         {
             string words = "original kid caught kiss effort apple echo else quantum blanket agree review";
-            IHDWallet<FlowWallet> wallet = new FlowHDWallet(words);
-            var account0wallet0 = wallet.GetAccount(0).GetExternalWallet(1);
+            IHDWallet<FlowWallet> wallet = new FlowHDWallet(words, "");
+            var account0wallet0 = wallet.GetAccount(0).GetExternalWallet(0);
 
             // m/44'/569'/0'/0/0
             Assert.AreEqual(account0wallet0.GetAddress(), "8cb99d283c33494003f243e78bfd8519b85b8a9d9058bf9db4043bad9ec66c216ce9f93cfd10bffffb545561f4801543dccc7c54ddc79d7f802a46d192e19177");
