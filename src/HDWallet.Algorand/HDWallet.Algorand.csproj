@@ -8,20 +8,20 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
-    <Title></Title>
-    <Description></Description>
+    <Title>BTCTrader.HDWallet.Algorand</Title>
+    <Description>Generic HD wallet for Algorand</Description>
     <Version>0.2.0</Version>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/farukterzioglu/HDWallet</RepositoryUrl> 
-    <PackageProjectUrl>https://github.com/farukterzioglu/HDWallet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl> 
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
     
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>HDWallet;Algorand;Blockchain;Ed25519</PackageTags>
-    <PackageId>HDWallet.Algorand</PackageId>
+    <PackageId>BTCTrader.HDWallet.Algorand</PackageId>
     
-    <Authors>Faruk Terzioglu</Authors>
-    <Company></Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
 
   </PropertyGroup>
 

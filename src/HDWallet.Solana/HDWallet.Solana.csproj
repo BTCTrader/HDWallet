@@ -8,15 +8,15 @@
     <Version>0.3.1</Version>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/farukterzioglu/HDWallet</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/farukterzioglu/HDWallet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>HDWallet;Solana;Blockchain;Ed25519</PackageTags>
-    <PackageId>HDWallet.Solana</PackageId>
+    <PackageId>BTCTrader.HDWallet.Solana</PackageId>
 
-    <Authors>Faruk Terzioglu</Authors>
-    <Company></Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
 
   </PropertyGroup>
 

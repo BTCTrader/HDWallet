@@ -7,15 +7,15 @@
     <Version>0.3.0</Version>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/farukterzioglu/HDWallet</RepositoryUrl> 
-    <PackageProjectUrl>https://github.com/farukterzioglu/HDWallet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl> 
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>HDWallet;Secp256k1;Ethereum;Blockchain</PackageTags>
-    <PackageId>HDWallet.Eth</PackageId>
+    <PackageId>BTCTrader.HDWallet.Eth</PackageId>
 
-    <Authors>Turgut Kanceltik, Faruk Terzioglu</Authors>
-    <Company></Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
   </PropertyGroup>
 
   <ItemGroup>

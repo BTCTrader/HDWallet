@@ -8,15 +8,15 @@
     <Version>0.5.0</Version>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/farukterzioglu/HDWallet</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/farukterzioglu/HDWallet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>HDWallet;Tezos;Blockchain;Secp256k1</PackageTags>
-    <PackageId>HDWallet.Tezos</PackageId>
+    <PackageId>BTCTrader.HDWallet.Tezos</PackageId>
 
-    <Authors>Faruk Terzioglu</Authors>
-    <Company></Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
 
   </PropertyGroup>
 

@@ -4,19 +4,19 @@
     <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0</TargetFrameworks>
   
     <Title>HDWallet.BIP32.Ed25519</Title>
-    <Description></Description>
+    <Description>Generic HD wallet</Description>
     <Version>0.2.0</Version>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/farukterzioglu/HDWallet</RepositoryUrl> 
-    <PackageProjectUrl>https://github.com/farukterzioglu/HDWallet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl> 
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
     
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>HDWallet;Ed25519;BIP32;Blockchain</PackageTags>
-    <PackageId>HDWallet.BIP32.Ed25519</PackageId>
+    <PackageId>BTCTrader.HDWallet.BIP32.Ed25519</PackageId>
     
-    <Authors>Faruk Terzioglu</Authors>
-    <Company></Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
   </PropertyGroup>
 
   <ItemGroup>

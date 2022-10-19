@@ -12,15 +12,15 @@
     <Version>0.8.0</Version>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/farukterzioglu/HDWallet</RepositoryUrl> 
-    <PackageProjectUrl>https://github.com/farukterzioglu/HDWallet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl> 
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
     
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>HDWallet;Polkadot;Blockchain;Ed25519</PackageTags>
-    <PackageId>HDWallet.Polkadot</PackageId>
+    <PackageId>BTCTrader.HDWallet.Polkadot</PackageId>
     
-    <Authors>Faruk Terzioglu</Authors>
-    <Company></Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
 
   </PropertyGroup>
 
