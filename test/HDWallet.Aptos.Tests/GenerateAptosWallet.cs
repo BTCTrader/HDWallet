@@ -28,9 +28,7 @@ namespace HDWallet.Aptos.Tests
             Assert.AreEqual(expected: "2a692bd8275bf63683b54a69a103ba07086bfc69ad82486ed432704bde363942", wallet.Address);
             Assert.AreEqual(expected: "be8b1f4e71c8886b63c8e1fa63a7d57170dfdcf6cf7a9922b98fbb217791636b", wallet.PublicKeyBytes.ToHexString());
             Assert.AreEqual(expected: "dea10d9e27387f66e3d271bdb92fe861c20c9427e09e3692c2aae2f73480b7c2", wallet.PrivateKeyBytes.ToHexString());
-
-
-            // Check Signature agains the one produced by go library.
+            
             var helloBytes = System.Text.Encoding.ASCII.GetBytes("Hello Dear World!");
             var sig = wallet.Sign(helloBytes);
             var sighex = sig.R.ToHexString() + sig.S.ToHexString();
