@@ -10,7 +10,7 @@
 
         <Title>BTCTrader.HDWallet.Aptos</Title>
         <Description>Generic HD wallet for Aptos</Description>
-        <Version>0.2.0</Version>
+        <Version>0.2.1</Version>
 
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl>
