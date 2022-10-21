@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <Title>BTCTrader.HDWallet.Flow</Title>
+    <Description>Generic HD wallet for Flow</Description>
+    <Version>0.2.1</Version>
+
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>HDWallet;Flow;Blockchain;Secp256k1</PackageTags>
+    <PackageId>BTCTrader.HDWallet.Flow</PackageId>
+
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HDWallet.Core\HDWallet.Core.csproj" />
+    <ProjectReference Include="..\HDWallet.Secp256k1\HDWallet.Secp256k1.csproj" />
+  </ItemGroup>
+
+</Project>
