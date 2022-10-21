@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
-    <Title>BTCTrader.HDWallet.Aptos</Title>
-    <Description>Generic HD wallet for Aptos</Description>
+    <Title>BTCTrader.HDWallet.Flow</Title>
+    <Description>Generic HD wallet for Flow</Description>
     <Version>0.2.1</Version>
 
     <RepositoryType>git</RepositoryType>
