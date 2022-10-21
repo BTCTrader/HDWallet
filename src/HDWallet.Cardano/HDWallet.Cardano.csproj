@@ -13,15 +13,15 @@
     <Version>0.1.1</Version>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/farukterzioglu/HDWallet</RepositoryUrl> 
-    <PackageProjectUrl>https://github.com/farukterzioglu/HDWallet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl> 
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
     
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>HDWallet;Cardano;Blockchain;Ed25519</PackageTags>
-    <PackageId>HDWallet.Cardano</PackageId>
+    <PackageId>BTCTrader.HDWallet.Cardano</PackageId>
     
-    <Authors>Faruk Terzioglu</Authors>
-    <Company></Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
 
   </PropertyGroup>
 

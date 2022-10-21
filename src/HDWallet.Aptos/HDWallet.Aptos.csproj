@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+        <PackageReference Include="SimpleBase" Version="2.1.0" />
+        <PackageReference Include="SharpHash" Version="1.1.0" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+
+        <Title>BTCTrader.HDWallet.Aptos</Title>
+        <Description>Generic HD wallet for Aptos</Description>
+        <Version>0.2.1</Version>
+
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
+
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>HDWallet;Aptos;Blockchain;Ed25519</PackageTags>
+        <PackageId>BTCTrader.HDWallet.Aptos</PackageId>
+
+        <Authors>BTCTrader</Authors>
+        <Company>BTCTrader</Company>
+
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\HDWallet.Ed25519\HDWallet.Ed25519.csproj" />
+    </ItemGroup>
+
+</Project>

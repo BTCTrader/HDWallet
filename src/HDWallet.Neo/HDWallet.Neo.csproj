@@ -8,15 +8,15 @@
     <Version>0.2.0-rc.1</Version>
 
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/farukterzioglu/HDWallet</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/farukterzioglu/HDWallet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>HDWallet;Neo;Blockchain</PackageTags>
-    <PackageId>HDWallet.Neo</PackageId>
+    <PackageId>BTCTrader.HDWallet.Neo</PackageId>
 
-    <Authors>Faruk Terzioglu</Authors>
-    <Company></Company>
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
   </PropertyGroup>
 
   <ItemGroup>

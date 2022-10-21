@@ -23,6 +23,7 @@ namespace HDWallet.Core
         Neo = 888,
         Terra = 330,
         Algorand = 283,
-        Flow = 539
+        Flow = 539,
+        Aptos = 637
     }
 }
