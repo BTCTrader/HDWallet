@@ -2,6 +2,22 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <Title>BTCTrader.HDWallet.Aptos</Title>
+    <Description>Generic HD wallet for Aptos</Description>
+    <Version>0.2.1</Version>
+
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/BTCTrader/HDWallet</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/BTCTrader/HDWallet</PackageProjectUrl>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>HDWallet;Flow;Blockchain;Secp256k1</PackageTags>
+    <PackageId>BTCTrader.HDWallet.Flow</PackageId>
+
+    <Authors>BTCTrader</Authors>
+    <Company>BTCTrader</Company>
+    
   </PropertyGroup>
 
   <ItemGroup>
